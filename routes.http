@@ -1,21 +1,21 @@
-POST http://localhost:3333/videos
+POST https://testenode2.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "video n",
-    "description": "esse é o primeiro video",
+    "title": "video 3",
+    "description": "esse é o terceiro video",
     "duration": 180
 }
 ###
 
 
-GET  http://localhost:3333/videos?search=01
+GET  https://testenode2.onrender.com/videos?search=3
 ###
-GET  http://localhost:3333/videos
+GET  https://testenode2.onrender.com/videos
 ###
 
 
-PUT http://localhost:3333/videos/fbc83e98-173e-410e-854b-627afe24e778
+PUT https://testenode2.onrender.com/videos/fbc83e98-173e-410e-854b-627afe24e778
 Content-Type: application/json
 
 {
@@ -25,6 +25,5 @@ Content-Type: application/json
 }
 
 
-
 ###
-DELETE http://localhost:3333/videos/4fd12f0e-70af-4c0a-bf87-0678c54611dd
+DELETE https://testenode2.onrender.com/videos/4fd12f0e-70af-4c0a-bf87-0678c54611dd
